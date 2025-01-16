@@ -20,7 +20,7 @@
             echo "jumlah bonus ".number_format($bonus = $proyek * bonus,0,',','.');
             echo "</br>";
             echo "rincian gaji bersih kariawan pertama </br>";
-            echo "gaji pokok Rp5.000.000 ditambah bonus".number_format($gajiKotor = gaji + $bonus ,0,',','.');
+            echo "gaji pokok Rp5.000.000 ditambah bonus menjadi ".number_format($gajiKotor = gaji + $bonus ,0,',','.');
             echo "</br>";
             echo "gaji bersih ".number_format($gajiBersih= $gajiKotor - ($gajiKotor * pajak),0,',','.');
             echo "</br>";
