@@ -14,7 +14,8 @@
             define("gaji",5000000);
             define("pajak",0.12);
             define("bonus",500000);
-
+ 
+            // 
 
             echo "jumlah proyek yang telah di selesai adalah 5 proyek ";
             echo "jumlah bonus Rp".number_format($bonus = $proyek * bonus,0,',','.');
